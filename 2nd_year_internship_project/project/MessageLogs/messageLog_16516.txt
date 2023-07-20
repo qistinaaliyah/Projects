@@ -1,0 +1,106 @@
+18/07/2023 12:39:08 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_16516.txt
+18/07/2023 12:39:08 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+18/07/2023 12:39:34 : -----------------------------------------------
+18/07/2023 12:39:34 : Started Python Script
+18/07/2023 12:39:34 : pymotorcad: GetVariable MOTORCADPROCESSID = 16516
+18/07/2023 12:39:35 : pymotorcad: GetVariable PROGRAM_VERSION = 2023.1.2.1
+18/07/2023 12:39:35 : Python script output: Calculating the number of axial slices
+18/07/2023 12:39:35 : pymotorcad: SetVariable ThermalCalcType = 0
+18/07/2023 12:39:35 : pymotorcad: DoSteadyStateAnalysis
+18/07/2023 12:39:36 : Steady State calculation completed after 7 iterations
+18/07/2023 12:39:36 : pymotorcad: GetVariable AXIALSLICEDEFINITION = 1
+18/07/2023 12:39:38 : The axial slices numbers = [3]
+18/07/2023 12:39:38 : Python script output: Calculating the number of cuboids
+18/07/2023 12:39:38 : pymotorcad: GetVariable NUMBEROFCUBOIDS_LOSSMODEL_LAB = 2
+18/07/2023 12:39:39 : The numbers of cuboids = [2]
+18/07/2023 12:39:39 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 12:39:39 : Python script output: Axial: 3, Cuboid: 2, Node numbers: 1123
+18/07/2023 12:39:42 : The node numbers = [1123]
+18/07/2023 12:39:42 : Python script output: Total node numbers: [1123]
+Total node numbers [1123]
+18/07/2023 12:39:42 : Finished Python Script
+18/07/2023 12:40:00 : -----------------------------------------------
+18/07/2023 12:40:00 : Started Python Script
+18/07/2023 12:40:01 : pymotorcad: GetVariable MOTORCADPROCESSID = 16516
+18/07/2023 12:40:01 : pymotorcad: GetVariable PROGRAM_VERSION = 2023.1.2.1
+18/07/2023 12:40:01 : Python script output: Calculating the number of axial slices
+18/07/2023 12:40:01 : pymotorcad: SetVariable ThermalCalcType = 0
+18/07/2023 12:40:01 : pymotorcad: DoSteadyStateAnalysis
+18/07/2023 12:40:02 : Steady State calculation completed after 7 iterations
+18/07/2023 12:40:02 : pymotorcad: GetVariable AXIALSLICEDEFINITION = 1
+18/07/2023 12:40:04 : The axial slices numbers = [3]
+18/07/2023 12:40:04 : Python script output: Calculating the number of cuboids
+18/07/2023 12:40:04 : pymotorcad: GetVariable NUMBEROFCUBOIDS_LOSSMODEL_LAB = 2
+18/07/2023 12:40:04 : The numbers of cuboids = [2]
+18/07/2023 12:40:04 : pymotorcad: GetOffsetNodeNumber node=373
+18/07/2023 12:40:04 : Python script Exception: An error occurred in user script.
+  User Script,  line 6, in main
+    user_func = get_all_node_numbers(373)
+  User Script,  line 32, in __init__
+    node_numbers = mcApp.get_offset_node_number(node_number, axial, cuboid)
+Exception: RPC Communication Error: Range check error
+18/07/2023 12:40:04 : Finished Python Script
+18/07/2023 12:40:15 : -----------------------------------------------
+18/07/2023 12:40:15 : Started Python Script
+18/07/2023 12:40:15 : pymotorcad: GetVariable MOTORCADPROCESSID = 16516
+18/07/2023 12:40:16 : pymotorcad: GetVariable PROGRAM_VERSION = 2023.1.2.1
+18/07/2023 12:40:16 : Python script output: Calculating the number of axial slices
+18/07/2023 12:40:16 : pymotorcad: SetVariable ThermalCalcType = 0
+18/07/2023 12:40:16 : pymotorcad: DoSteadyStateAnalysis
+18/07/2023 12:40:17 : Steady State calculation completed after 7 iterations
+18/07/2023 12:40:17 : pymotorcad: GetVariable AXIALSLICEDEFINITION = 1
+18/07/2023 12:40:19 : The axial slices numbers = [3]
+18/07/2023 12:40:19 : Python script output: Calculating the number of cuboids
+18/07/2023 12:40:19 : pymotorcad: GetVariable NUMBEROFCUBOIDS_LOSSMODEL_LAB = 2
+18/07/2023 12:40:20 : The numbers of cuboids = [2]
+18/07/2023 12:40:20 : pymotorcad: GetOffsetNodeNumber node=343
+18/07/2023 12:40:20 : Python script output: Axial: 3, Cuboid: 2, Node numbers: 1116
+18/07/2023 12:40:21 : The node numbers = [1116]
+18/07/2023 12:40:21 : Python script output: Total node numbers: [1116]
+Total node numbers [1116]
+18/07/2023 12:40:21 : Finished Python Script
+18/07/2023 12:40:28 : -----------------------------------------------
+18/07/2023 12:40:28 : Started Python Script
+18/07/2023 12:40:28 : pymotorcad: GetVariable MOTORCADPROCESSID = 16516
+18/07/2023 12:40:28 : pymotorcad: GetVariable PROGRAM_VERSION = 2023.1.2.1
+18/07/2023 12:40:28 : Python script output: Calculating the number of axial slices
+18/07/2023 12:40:28 : pymotorcad: SetVariable ThermalCalcType = 0
+18/07/2023 12:40:28 : pymotorcad: DoSteadyStateAnalysis
+18/07/2023 12:40:29 : Steady State calculation completed after 7 iterations
+18/07/2023 12:40:30 : pymotorcad: GetVariable AXIALSLICEDEFINITION = 1
+18/07/2023 12:40:30 : The axial slices numbers = [3]
+18/07/2023 12:40:30 : Python script output: Calculating the number of cuboids
+18/07/2023 12:40:30 : pymotorcad: GetVariable NUMBEROFCUBOIDS_LOSSMODEL_LAB = 2
+18/07/2023 12:40:31 : The numbers of cuboids = [2]
+18/07/2023 12:40:31 : pymotorcad: GetOffsetNodeNumber node=1
+18/07/2023 12:40:32 : pymotorcad: Node does not exist in circuit.
+18/07/2023 12:40:32 : Python script Exception: An error occurred in user script.
+  User Script,  line 6, in main
+    user_func = get_all_node_numbers(1)
+  User Script,  line 32, in __init__
+    node_numbers = mcApp.get_offset_node_number(node_number, axial, cuboid)
+Exception: pymotorcad: GetOffsetNodeNumber node=1
+pymotorcad: Node does not exist in circuit.
+18/07/2023 12:40:32 : Finished Python Script
+18/07/2023 12:40:43 : -----------------------------------------------
+18/07/2023 12:40:43 : Started Python Script
+18/07/2023 12:40:43 : pymotorcad: GetVariable MOTORCADPROCESSID = 16516
+18/07/2023 12:40:43 : pymotorcad: GetVariable PROGRAM_VERSION = 2023.1.2.1
+18/07/2023 12:40:43 : Python script output: Calculating the number of axial slices
+18/07/2023 12:40:43 : pymotorcad: SetVariable ThermalCalcType = 0
+18/07/2023 12:40:43 : pymotorcad: DoSteadyStateAnalysis
+18/07/2023 12:40:44 : Steady State calculation completed after 7 iterations
+18/07/2023 12:40:45 : pymotorcad: GetVariable AXIALSLICEDEFINITION = 1
+18/07/2023 12:40:46 : The axial slices numbers = [3]
+18/07/2023 12:40:46 : Python script output: Calculating the number of cuboids
+18/07/2023 12:40:46 : pymotorcad: GetVariable NUMBEROFCUBOIDS_LOSSMODEL_LAB = 2
+18/07/2023 12:40:46 : The numbers of cuboids = [2]
+18/07/2023 12:40:46 : pymotorcad: GetOffsetNodeNumber node=366
+18/07/2023 12:40:46 : Python script Exception: An error occurred in user script.
+  User Script,  line 6, in main
+    user_func = get_all_node_numbers(366)
+  User Script,  line 32, in __init__
+    node_numbers = mcApp.get_offset_node_number(node_number, axial, cuboid)
+Exception: RPC Communication Error: Range check error
+18/07/2023 12:40:46 : Finished Python Script
+18/07/2023 12:41:05 : Data has been edited.Do you want to save the file before closing? = No

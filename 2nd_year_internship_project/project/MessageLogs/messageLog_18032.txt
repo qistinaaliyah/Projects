@@ -1,0 +1,6 @@
+18/07/2023 12:19:11 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_18032.txt
+18/07/2023 12:19:11 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+18/07/2023 12:19:57 : Data has been edited.Do you want to save the file before closing? = Yes
+18/07/2023 12:20:01 : File C:\Users\qistinatmp\Desktop\project\project.mot already exists
+Do you wish to overwrite it? = Yes
+18/07/2023 12:20:01 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot

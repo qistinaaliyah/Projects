@@ -1,0 +1,54 @@
+18/07/2023 15:09:10 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_11164.txt
+18/07/2023 15:09:10 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+18/07/2023 15:13:00 : -----------------------------------------------
+18/07/2023 15:13:00 : Started Python Script
+18/07/2023 15:13:01 : pymotorcad: GetVariable MOTORCADPROCESSID = 11164
+18/07/2023 15:13:01 : pymotorcad: GetVariable PROGRAM_VERSION = 2023.1.2.1
+18/07/2023 15:13:01 : Python script output: Calculating the number of axial slices
+18/07/2023 15:13:01 : pymotorcad: SetVariable ThermalCalcType = 0
+18/07/2023 15:13:01 : pymotorcad: DoSteadyStateAnalysis
+18/07/2023 15:13:02 : Steady State calculation completed after 7 iterations
+18/07/2023 15:13:02 : pymotorcad: GetVariable AXIALSLICEDEFINITION = 0
+18/07/2023 15:13:04 : The axial slices numbers = 1
+18/07/2023 15:13:04 : Python script output: Calculating the number of cuboids
+18/07/2023 15:13:04 : pymotorcad: GetVariable NUMBEROFCUBOIDS_LOSSMODEL_LAB = 2
+18/07/2023 15:13:05 : The numbers of cuboids = 2
+18/07/2023 15:13:05 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:05 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:05 : Python script output: Total node numbers None
+18/07/2023 15:13:06 : All node numbers = [350, 373]
+18/07/2023 15:13:06 : Finished Python Script
+18/07/2023 15:13:15 : -----------------------------------------------
+18/07/2023 15:13:15 : Started Python Script
+18/07/2023 15:13:15 : pymotorcad: GetVariable MOTORCADPROCESSID = 11164
+18/07/2023 15:13:15 : pymotorcad: GetVariable PROGRAM_VERSION = 2023.1.2.1
+18/07/2023 15:13:15 : Python script output: Calculating the number of axial slices
+18/07/2023 15:13:15 : pymotorcad: SetVariable ThermalCalcType = 0
+18/07/2023 15:13:15 : pymotorcad: DoSteadyStateAnalysis
+18/07/2023 15:13:17 : Steady State calculation completed after 7 iterations
+18/07/2023 15:13:18 : pymotorcad: GetVariable AXIALSLICEDEFINITION = 3
+18/07/2023 15:13:20 : The axial slices numbers = 7
+18/07/2023 15:13:20 : pymotorcad: GetVariable NUMBEROFCUBOIDS_LOSSMODEL_LAB = 2
+18/07/2023 15:13:20 : Python script output: Calculating the number of cuboids
+18/07/2023 15:13:21 : The numbers of cuboids = 2
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : pymotorcad: GetOffsetNodeNumber node=350
+18/07/2023 15:13:21 : Python script output: Total node numbers None
+18/07/2023 15:13:23 : All node numbers = [350, 373, 725, 748, 1100, 1123, 1475, 1498, 1850, 1873, 2225, 2248, 2600, 2623]
+18/07/2023 15:13:23 : Finished Python Script
+18/07/2023 15:20:32 : Save current data before loading new data? = Yes
+18/07/2023 15:20:35 : File C:\Users\qistinatmp\Desktop\project\project.mot already exists
+Do you wish to overwrite it? = Yes
+18/07/2023 15:20:36 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot

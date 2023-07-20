@@ -1,0 +1,3 @@
+19/07/2023 14:07:48 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_19916.txt
+19/07/2023 14:07:48 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+19/07/2023 14:07:48 : pymotorcad: Quit

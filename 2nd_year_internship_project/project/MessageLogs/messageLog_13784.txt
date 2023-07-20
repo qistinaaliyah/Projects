@@ -1,0 +1,4 @@
+19/07/2023 14:54:11 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_13784.txt
+19/07/2023 14:54:11 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+19/07/2023 14:54:12 : pymotorcad: DisplayScreen scripting
+19/07/2023 14:54:12 : pymotorcad: Quit

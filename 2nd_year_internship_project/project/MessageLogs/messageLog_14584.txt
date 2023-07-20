@@ -1,0 +1,3 @@
+18/07/2023 08:19:06 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_14584.txt
+18/07/2023 08:19:06 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+18/07/2023 08:19:30 : Creating folder: C:\Users\qistinatmp\Desktop\project\ScriptFiles

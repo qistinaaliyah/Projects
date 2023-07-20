@@ -1,0 +1,4 @@
+19/07/2023 14:14:00 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_24004.txt
+19/07/2023 14:14:00 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+19/07/2023 14:14:38 : pymotorcad: DisplayScreen scripting
+19/07/2023 14:15:59 : Data has been edited.Do you want to save the file before closing? = No

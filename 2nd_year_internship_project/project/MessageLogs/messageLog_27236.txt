@@ -1,0 +1,14 @@
+20/07/2023 13:02:46 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_27236.txt
+20/07/2023 13:02:46 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+20/07/2023 13:02:46 : pymotorcad: DisplayScreen scripting
+20/07/2023 13:02:47 : pymotorcad: SetVariable ThermalCalcType = 0
+20/07/2023 13:02:47 : pymotorcad: DoSteadyStateAnalysis
+20/07/2023 13:02:48 : Steady State calculation completed after 7 iterations
+20/07/2023 13:02:48 : pymotorcad: GetVariable AXIALSLICEDEFINITION = 0
+20/07/2023 13:02:49 : The axial slices numbers = 1
+20/07/2023 13:02:49 : pymotorcad: GetVariable NUMBEROFCUBOIDS_LOSSMODEL_LAB = 2
+20/07/2023 13:02:49 : The numbers of cuboids = 2
+20/07/2023 13:02:49 : pymotorcad: GetOffsetNodeNumber node=350
+20/07/2023 13:02:49 : pymotorcad: GetOffsetNodeNumber node=350
+20/07/2023 13:02:50 : All node numbers = [350, 373]
+20/07/2023 13:02:50 : pymotorcad: Quit

@@ -1,0 +1,22 @@
+20/07/2023 09:29:53 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_25296.txt
+20/07/2023 09:29:53 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+20/07/2023 10:15:21 : Parallel slot type is required for hairpin coil style. 
+Slot type will be changed to parallel slot.
+Do you wish to continue? = Yes
+20/07/2023 10:15:21 : Warning : Winding may not be feasible.
+Slots per Pole per Phase not integer value = 1.5
+20/07/2023 10:15:27 : Warning : Winding may not be feasible.
+Slots per Pole per Phase not integer value = 1.5
+20/07/2023 10:15:35 : Warning : Winding may not be feasible.
+Slots per Pole per Phase not integer value = 1.5
+20/07/2023 10:15:41 : Warning : Winding may not be feasible.
+Slots per Pole per Phase not integer value = 1.5
+20/07/2023 10:18:33 : Warning : Winding may not be feasible.
+Slots per Pole per Phase not integer value = 1.5
+20/07/2023 10:19:03 : Winding is not feasible.
+Slot_Number/Phases/Parallel Paths not integer value = 1.5
+20/07/2023 10:19:10 : Warning : Winding may not be feasible.
+Slots per Pole per Phase not integer value = 1.5
+20/07/2023 10:19:13 : Winding is not feasible.
+Slot_Number/Phases/Parallel Paths not integer value = 1.5
+20/07/2023 10:19:19 : Data has been edited.Do you want to save the file before closing? = No

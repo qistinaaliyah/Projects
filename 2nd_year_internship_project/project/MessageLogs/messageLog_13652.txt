@@ -1,0 +1,4 @@
+11/07/2023 11:20:19 : Created file: C:\Users\qistinatmp\Desktop\project\project\MessageLogs\messageLog_13652.txt
+11/07/2023 11:20:19 : Loaded file: C:\Users\qistinatmp\Desktop\project\project.mot
+11/07/2023 11:20:26 : Save current data before loading new data? = Cancel
+11/07/2023 11:20:32 : Save current data before loading new data? = Yes
