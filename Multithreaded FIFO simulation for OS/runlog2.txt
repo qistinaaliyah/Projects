@@ -1,0 +1,140 @@
+=====================Configuration======================
+Producers: 5, Consumers: 4, Queue Size: 20, Timeout: 30 seconds
+
+To specify configuration, at terminal do: ./main <Producers> <Consumers> <Queue Size> <Timeout>
+
+To enable DEBUGGING MODE, at terminal add --verbose at the end of configuration
+
+Compiled Model Parameters:
+  Max Queue Size: 20
+  Default Timeout: 30 seconds
+  Max Wait Time: 4 seconds
+
+[2025-01-06 19:55:38] [SYSTEM] Execution started
+  User: mint
+  Hostname: mint
+
+=========================================================
+[2025-01-06 19:55:38] [PRODUCER] Producer 1 started
+[2025-01-06 19:55:38] [PRODUCER] Produced item 1, data: 3, priority: Normal
+[2025-01-06 19:55:38] [CONSUMER] Consumer 0 started
+[2025-01-06 19:55:38] [CONSUMER] Consumed item 0, data: 3, priority: Normal
+[2025-01-06 19:55:38] [CONSUMER] Consumer 1 started
+[2025-01-06 19:55:38] [PRODUCER] Producer 2 started
+[2025-01-06 19:55:38] [PRODUCER] Produced item 2, data: 3, priority: Normal
+[2025-01-06 19:55:38] [PRODUCER] Producer 3 started
+[2025-01-06 19:55:38] [PRODUCER] Produced item 3, data: 2, priority: Low
+[2025-01-06 19:55:38] [CONSUMER] Consumer 2 started
+[2025-01-06 19:55:38] [CONSUMER] Consumed item 2, data: 2, priority: Low
+[2025-01-06 19:55:38] [PRODUCER] Producer 4 started
+[2025-01-06 19:55:38] [PRODUCER] Produced item 4, data: 7, priority: High
+[2025-01-06 19:55:38] [PRODUCER] Producer 0 started
+[2025-01-06 19:55:38] [PRODUCER] Produced item 0, data: 3, priority: Normal
+[2025-01-06 19:55:38] [CONSUMER] Consumer 3 started
+[2025-01-06 19:55:38] [CONSUMER] Consumed item 3, data: 3, priority: Normal
+[2025-01-06 19:55:38] [CONSUMER] Consumed item 1, data: 3, priority: Normal
+[2025-01-06 19:55:39] [CONSUMER] Consumed item 1, data: 7, priority: High
+[2025-01-06 19:55:39] [PRODUCER] Produced item 0, data: 1, priority: High
+[2025-01-06 19:55:40] [PRODUCER] Produced item 1, data: 9, priority: High
+[2025-01-06 19:55:40] [PRODUCER] Produced item 3, data: 2, priority: Normal
+[2025-01-06 19:55:40] [CONSUMER] Consumed item 1, data: 2, priority: Normal
+[2025-01-06 19:55:41] [PRODUCER] Produced item 2, data: 9, priority: Low
+[2025-01-06 19:55:41] [CONSUMER] Consumed item 2, data: 9, priority: Low
+[2025-01-06 19:55:41] [CONSUMER] Consumed item 3, data: 1, priority: High
+[2025-01-06 19:55:42] [CONSUMER] Consumed item 0, data: 9, priority: High
+[2025-01-06 19:55:42] [PRODUCER] Produced item 4, data: 3, priority: Normal
+[2025-01-06 19:55:43] [PRODUCER] Produced item 0, data: 2, priority: Low
+[2025-01-06 19:55:43] [PRODUCER] Produced item 1, data: 3, priority: Low
+[2025-01-06 19:55:43] [CONSUMER] Consumed item 3, data: 3, priority: Normal
+[2025-01-06 19:55:44] [CONSUMER] Consumed item 2, data: 2, priority: Low
+[2025-01-06 19:55:44] [CONSUMER] Consumed item 1, data: 3, priority: Low
+[2025-01-06 19:55:44] [PRODUCER] Produced item 2, data: 8, priority: High
+[2025-01-06 19:55:44] [PRODUCER] Produced item 3, data: 5, priority: Low
+[2025-01-06 19:55:44] [PRODUCER] Produced item 1, data: 6, priority: Low
+[2025-01-06 19:55:45] [PRODUCER] Produced item 3, data: 0, priority: Normal
+[2025-01-06 19:55:45] [CONSUMER] Consumed item 3, data: 0, priority: Normal
+[2025-01-06 19:55:46] [PRODUCER] Produced item 4, data: 5, priority: High
+[2025-01-06 19:55:46] [CONSUMER] Consumed item 0, data: 5, priority: Low
+[2025-01-06 19:55:46] [CONSUMER] Consumed item 2, data: 6, priority: Low
+[2025-01-06 19:55:47] [CONSUMER] Consumed item 0, data: 8, priority: High
+[2025-01-06 19:55:47] [PRODUCER] Produced item 3, data: 9, priority: Normal
+[2025-01-06 19:55:47] [CONSUMER] Consumed item 1, data: 5, priority: High
+[2025-01-06 19:55:47] [PRODUCER] Produced item 0, data: 5, priority: Low
+[2025-01-06 19:55:47] [CONSUMER] Consumed item 3, data: 9, priority: Normal
+[2025-01-06 19:55:47] [PRODUCER] Produced item 1, data: 7, priority: High
+[2025-01-06 19:55:48] [PRODUCER] Produced item 2, data: 3, priority: High
+[2025-01-06 19:55:48] [CONSUMER] Consumed item 2, data: 5, priority: Low
+[2025-01-06 19:55:48] [CONSUMER] Consumed item 1, data: 7, priority: High
+[2025-01-06 19:55:48] [PRODUCER] Produced item 1, data: 8, priority: High
+[2025-01-06 19:55:49] [CONSUMER] Consumed item 2, data: 3, priority: High
+[2025-01-06 19:55:49] [PRODUCER] Produced item 3, data: 3, priority: High
+[2025-01-06 19:55:49] [CONSUMER] Consumed item 1, data: 8, priority: High
+[2025-01-06 19:55:49] [PRODUCER] Produced item 0, data: 0, priority: High
+[2025-01-06 19:55:49] [PRODUCER] Produced item 1, data: 8, priority: Normal
+[2025-01-06 19:55:50] [PRODUCER] Produced item 4, data: 6, priority: Low
+[2025-01-06 19:55:50] [CONSUMER] Consumed item 0, data: 8, priority: Normal
+[2025-01-06 19:55:50] [CONSUMER] Consumed item 1, data: 6, priority: Low
+[2025-01-06 19:55:50] [CONSUMER] Consumed item 3, data: 3, priority: High
+[2025-01-06 19:55:50] [PRODUCER] Produced item 0, data: 8, priority: High
+[2025-01-06 19:55:52] [PRODUCER] Produced item 2, data: 7, priority: High
+[2025-01-06 19:55:52] [CONSUMER] Consumed item 2, data: 0, priority: High
+[2025-01-06 19:55:52] [PRODUCER] Produced item 0, data: 1, priority: High
+[2025-01-06 19:55:52] [PRODUCER] Produced item 1, data: 2, priority: High
+[2025-01-06 19:55:53] [CONSUMER] Consumed item 2, data: 8, priority: High
+[2025-01-06 19:55:53] [PRODUCER] Produced item 3, data: 5, priority: High
+[2025-01-06 19:55:53] [CONSUMER] Consumed item 1, data: 7, priority: High
+[2025-01-06 19:55:53] [CONSUMER] Consumed item 3, data: 2, priority: High
+[2025-01-06 19:55:54] [PRODUCER] Produced item 4, data: 1, priority: Normal
+[2025-01-06 19:55:54] [PRODUCER] Produced item 2, data: 1, priority: Low
+[2025-01-06 19:55:54] [CONSUMER] Consumed item 0, data: 1, priority: Normal
+[2025-01-06 19:55:54] [CONSUMER] Consumed item 2, data: 1, priority: Low
+[2025-01-06 19:55:54] [CONSUMER] Consumed item 1, data: 1, priority: High
+[2025-01-06 19:55:54] [PRODUCER] Produced item 1, data: 6, priority: High
+[2025-01-06 19:55:55] [PRODUCER] Produced item 0, data: 6, priority: High
+[2025-01-06 19:55:55] [CONSUMER] Consumed item 3, data: 5, priority: High
+[2025-01-06 19:55:56] [PRODUCER] Produced item 4, data: 9, priority: High
+[2025-01-06 19:55:56] [CONSUMER] Consumed item 0, data: 6, priority: High
+[2025-01-06 19:55:56] [PRODUCER] Produced item 1, data: 2, priority: High
+[2025-01-06 19:55:57] [PRODUCER] Produced item 4, data: 9, priority: Low
+[2025-01-06 19:55:57] [PRODUCER] Produced item 3, data: 8, priority: High
+[2025-01-06 19:55:58] [PRODUCER] Produced item 2, data: 9, priority: Low
+[2025-01-06 19:55:58] [PRODUCER] Produced item 4, data: 8, priority: Normal
+[2025-01-06 19:55:58] [PRODUCER] Produced item 3, data: 6, priority: Low
+[2025-01-06 19:55:58] [CONSUMER] Consumed item 2, data: 9, priority: Low
+[2025-01-06 19:55:58] [CONSUMER] Consumed item 1, data: 8, priority: Normal
+[2025-01-06 19:55:58] [PRODUCER] Produced item 0, data: 4, priority: High
+[2025-01-06 19:55:59] [CONSUMER] Consumed item 1, data: 9, priority: Low
+[2025-01-06 19:55:59] [CONSUMER] Consumed item 3, data: 6, priority: Low
+[2025-01-06 19:56:00] [CONSUMER] Consumed item 0, data: 6, priority: High
+[2025-01-06 19:56:00] [PRODUCER] Produced item 4, data: 4, priority: Normal
+[2025-01-06 19:56:00] [PRODUCER] Produced item 0, data: 4, priority: High
+[2025-01-06 19:56:00] [PRODUCER] Produced item 1, data: 3, priority: Low
+[2025-01-06 19:56:01] [CONSUMER] Consumed item 0, data: 4, priority: Normal
+[2025-01-06 19:56:01] [PRODUCER] Produced item 4, data: 9, priority: Normal
+[2025-01-06 19:56:01] [CONSUMER] Consumed item 3, data: 9, priority: Normal
+[2025-01-06 19:56:01] [PRODUCER] Produced item 0, data: 7, priority: Normal
+[2025-01-06 19:56:02] [PRODUCER] Produced item 2, data: 7, priority: Low
+[2025-01-06 19:56:02] [CONSUMER] Consumed item 2, data: 7, priority: Normal
+[2025-01-06 19:56:02] [PRODUCER] Produced item 3, data: 8, priority: Normal
+[2025-01-06 19:56:02] [PRODUCER] Produced item 4, data: 5, priority: Normal
+[2025-01-06 19:56:02] [CONSUMER] Consumed item 1, data: 8, priority: Normal
+[2025-01-06 19:56:03] [CONSUMER] Consumed item 0, data: 5, priority: Normal
+[2025-01-06 19:56:03] [CONSUMER] Consumed item 1, data: 3, priority: Low
+[2025-01-06 19:56:04] [PRODUCER] Produced item 2, data: 8, priority: Low
+[2025-01-06 19:56:04] [CONSUMER] Consumed item 2, data: 7, priority: Low
+[2025-01-06 19:56:04] [PRODUCER] Produced item 3, data: 6, priority: Normal
+[2025-01-06 19:56:04] [PRODUCER] Produced item 1, data: 8, priority: High
+[2025-01-06 19:56:05] [PRODUCER] Produced item 4, data: 4, priority: Normal
+[2025-01-06 19:56:05] [CONSUMER] Consumed item 3, data: 6, priority: Normal
+[2025-01-06 19:56:05] [PRODUCER] Produced item 0, data: 9, priority: Low
+[2025-01-06 19:56:05] [PRODUCER] Produced item 1, data: 6, priority: High
+[2025-01-06 19:56:06] [PRODUCER] Produced item 3, data: 0, priority: High
+[2025-01-06 19:56:06] [PRODUCER] Produced item 4, data: 9, priority: Normal
+[2025-01-06 19:56:06] [CONSUMER] Consumed item 3, data: 4, priority: Normal
+[2025-01-06 19:56:07] [CONSUMER] Consumed item 0, data: 9, priority: Normal
+[2025-01-06 19:56:07] [PRODUCER] Produced item 0, data: 5, priority: High
+[2025-01-06 19:56:07] [CONSUMER] Consumed item 3, data: 8, priority: Low
+[2025-01-06 19:56:07] [CONSUMER] Consumed item 1, data: 9, priority: Low
+[2025-01-06 19:56:08] [SYSTEM  ] Execution completed
+
+===========================================================

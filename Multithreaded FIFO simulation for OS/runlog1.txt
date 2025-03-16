@@ -1,0 +1,31 @@
+[2025-01-06 19:57:24] [SYSTEM  ] Verbose debugging enabled
+=====================Configuration======================
+Producers: 1, Consumers: 1, Queue Size: 5, Timeout: 5 seconds
+
+To specify configuration, at terminal do: ./main <Producers> <Consumers> <Queue Size> <Timeout>
+
+To enable DEBUGGING MODE, at terminal add --verbose at the end of configuration
+
+Compiled Model Parameters:
+  Max Queue Size: 20
+  Default Timeout: 30 seconds
+  Max Wait Time: 4 seconds
+
+[2025-01-06 19:57:24] [SYSTEM] Execution started
+  User: mint
+  Hostname: mint
+
+=========================================================
+[2025-01-06 19:57:24] [PRODUCER] Producer 0 started
+[2025-01-06 19:57:24] [DEBUG   ] Queue size after enqueue: 1
+[2025-01-06 19:57:24] [PRODUCER] Produced item 0, data: 3, priority: Normal
+[2025-01-06 19:57:24] [CONSUMER] Consumer 0 started
+[2025-01-06 19:57:24] [DEBUG   ] Queue size after dequeue: 0
+[2025-01-06 19:57:24] [CONSUMER] Consumed item 0, data: 3, priority: Normal
+[2025-01-06 19:57:26] [DEBUG   ] Queue size after enqueue: 1
+[2025-01-06 19:57:26] [PRODUCER] Produced item 0, data: 3, priority: Normal
+[2025-01-06 19:57:28] [DEBUG   ] Queue size after dequeue: 0
+[2025-01-06 19:57:28] [CONSUMER] Consumed item 0, data: 3, priority: Normal
+[2025-01-06 19:57:29] [SYSTEM  ] Execution completed
+
+===========================================================
