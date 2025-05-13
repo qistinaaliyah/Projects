@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/addroundkey_encrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addroundkey_encrypt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/encryption_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryption_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/keyexpansion_encrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keyexpansion_encrypt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/mixcol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mixcol
+INFO: [VRFC 10-311] analyzing module mixcol_matrix
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/shiftrow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shiftrow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/subbyte.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subbyte
+INFO: [VRFC 10-311] analyzing module sbox
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sim_1/new/encryption_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryption_tb

@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../encryption.srcs/sources_1/new/addroundkey_encrypt.v" \
+"../../../../encryption.srcs/sources_1/new/encryption_top.v" \
+"../../../../encryption.srcs/sources_1/new/keyexpansion_encrypt.v" \
+"../../../../encryption.srcs/sources_1/new/mixcol.v" \
+"../../../../encryption.srcs/sources_1/new/shiftrow.v" \
+"../../../../encryption.srcs/sources_1/new/subbyte.v" \
+"../../../../encryption.srcs/sim_1/new/encryption_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

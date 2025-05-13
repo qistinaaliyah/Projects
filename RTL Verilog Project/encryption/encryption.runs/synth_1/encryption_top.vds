@@ -1,0 +1,312 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Apr 27 13:59:01 2025
+# Process ID: 21212
+# Current directory: C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.runs/synth_1
+# Command line: vivado.exe -log encryption_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source encryption_top.tcl
+# Log file: C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.runs/synth_1/encryption_top.vds
+# Journal file: C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.runs/synth_1\vivado.jou
+# Running On        :MSI
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12650H
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :16867 MB
+# Swap memory       :10504 MB
+# Total Virtual     :27371 MB
+# Available Virtual :3641 MB
+#-----------------------------------------------------------
+source encryption_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:23 . Memory (MB): peak = 537.148 ; gain = 196.941
+Command: read_checkpoint -auto_incremental -incremental C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/utils_1/imports/synth_1/encryption_top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/utils_1/imports/synth_1/encryption_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top encryption_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 27308
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1410.363 ; gain = 449.145
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'encryption_top' [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/encryption_top.v:18]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/encryption_top.v:59]
+INFO: [Synth 8-6157] synthesizing module 'keyexpansion_encrypt' [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/keyexpansion_encrypt.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/keyexpansion_encrypt.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'keyexpansion_encrypt' (0#1) [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/keyexpansion_encrypt.v:23]
+INFO: [Synth 8-6157] synthesizing module 'subbyte' [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/subbyte.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sbox' [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/subbyte.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'sbox' (0#1) [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/subbyte.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'subbyte' (0#1) [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/subbyte.v:23]
+INFO: [Synth 8-6157] synthesizing module 'shiftrow' [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/shiftrow.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'shiftrow' (0#1) [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/shiftrow.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mixcol' [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/mixcol.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mixcol_matrix' [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/mixcol.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'mixcol_matrix' (0#1) [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/mixcol.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'mixcol' (0#1) [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/mixcol.v:23]
+INFO: [Synth 8-6157] synthesizing module 'addroundkey_encrypt' [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/addroundkey_encrypt.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'addroundkey_encrypt' (0#1) [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/addroundkey_encrypt.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'encryption_top' (0#1) [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/encryption_top.v:18]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/keyexpansion_encrypt.v:334]
+WARNING: [Synth 8-6014] Unused sequential element data_ready_reg was removed.  [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/sources_1/new/encryption_top.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.324 ; gain = 573.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1534.324 ; gain = 573.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 1534.324 ; gain = 573.105
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.156 . Memory (MB): peak = 1534.324 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/constrs_1/new/xdc.xdc]
+Finished Parsing XDC File [C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.srcs/constrs_1/new/xdc.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1636.340 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1636.340 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:55 . Memory (MB): peak = 1636.340 ; gain = 675.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:55 . Memory (MB): peak = 1636.340 ; gain = 675.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:55 . Memory (MB): peak = 1636.340 ; gain = 675.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:57 . Memory (MB): peak = 1636.340 ; gain = 675.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input    128 Bit         XORs := 2     
+	   2 Input     32 Bit         XORs := 4     
+	   2 Input      8 Bit         XORs := 17    
+	   3 Input      8 Bit         XORs := 12    
+	   5 Input      8 Bit         XORs := 8     
++---Registers : 
+	              128 Bit    Registers := 37    
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input  128 Bit        Muxes := 36    
+	   3 Input  128 Bit        Muxes := 1     
+	   4 Input  128 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 54    
+	  12 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 16    
+	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:02:08 . Memory (MB): peak = 1636.340 ; gain = 675.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++---------------------+--------------------+---------------+----------------+
+|Module Name          | RTL Object         | Depth x Width | Implemented As | 
++---------------------+--------------------+---------------+----------------+
+|keyexpansion_encrypt | sbox0              | 256x8         | LUT            | 
+|keyexpansion_encrypt | sbox0              | 256x8         | LUT            | 
+|keyexpansion_encrypt | sbox0              | 256x8         | LUT            | 
+|keyexpansion_encrypt | sbox0              | 256x8         | LUT            | 
+|sbox                 | c                  | 256x8         | LUT            | 
+|keyexpansion_encrypt | sbox0              | 256x8         | LUT            | 
+|keyexpansion_encrypt | sbox0              | 256x8         | LUT            | 
+|keyexpansion_encrypt | sbox0              | 256x8         | LUT            | 
+|keyexpansion_encrypt | sbox0              | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[8].s/c   | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[16].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[24].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[32].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[40].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[48].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[56].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[64].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[72].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[80].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[88].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[96].s/c  | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[104].s/c | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[112].s/c | 256x8         | LUT            | 
+|subbyte              | sub_Bytes[120].s/c | 256x8         | LUT            | 
++---------------------+--------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:04 ; elapsed = 00:02:24 . Memory (MB): peak = 1636.340 ; gain = 675.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:02:47 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:18 ; elapsed = 00:02:53 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:26 ; elapsed = 00:03:07 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:26 ; elapsed = 00:03:07 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:27 ; elapsed = 00:03:09 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:27 ; elapsed = 00:03:09 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:28 ; elapsed = 00:03:11 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:28 ; elapsed = 00:03:11 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     2|
+|3     |LUT2  |   144|
+|4     |LUT3  |  1093|
+|5     |LUT4  |   683|
+|6     |LUT5  |   440|
+|7     |LUT6  |  2016|
+|8     |MUXF7 |   256|
+|9     |MUXF8 |   128|
+|10    |FDCE  |  3354|
+|11    |FDRE  |  1408|
+|12    |IBUF  |    66|
+|13    |OBUF  |   129|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:28 ; elapsed = 00:03:11 . Memory (MB): peak = 1739.215 ; gain = 777.996
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:13 ; elapsed = 00:03:02 . Memory (MB): peak = 1739.215 ; gain = 675.980
+Synthesis Optimization Complete : Time (s): cpu = 00:01:28 ; elapsed = 00:03:12 . Memory (MB): peak = 1739.215 ; gain = 777.996
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 1739.215 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 384 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1739.215 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 2ecdf68
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:37 ; elapsed = 00:04:00 . Memory (MB): peak = 1739.215 ; gain = 1197.777
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1739.215 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/User/OneDrive/Desktop/EEE6225/encryption/encryption.runs/synth_1/encryption_top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file encryption_top_utilization_synth.rpt -pb encryption_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 27 14:03:28 2025...
